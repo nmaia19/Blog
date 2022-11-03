@@ -72,10 +72,7 @@
 
     <!-- POSTS -->
 
-     <%
-              Posts post = new Posts();
-              List<Posts> allPosts = post.consultar();
-     %>
+
 
     <section class="posts section">
 
@@ -85,7 +82,7 @@
 
             <div class="posts-grid-wrapper d-grid">
 
-                <form action="index.jsp" method="POST">
+                <form action="login.jsp" method="POST">
                                <div>
                                  <div class="section-input">
                                    <label class="input-label" for="email">E-mail</label>

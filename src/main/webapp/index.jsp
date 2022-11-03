@@ -52,6 +52,7 @@
 
           <%
             Usuarios usuarioLogado = (Usuarios) session.getAttribute("usuario");
+
             if(usuarioLogado != null) {%>
                 <a href="logout.jsp" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
                 <span>Log Out</span>
